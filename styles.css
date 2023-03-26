@@ -1,0 +1,44 @@
+body{
+  background-color: #D6E2F0;
+  width: 1440px;
+  margin: auto;
+}
+p{
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  width: 80%;
+  color: hsl(220, 15%, 55%);
+  font-family: 'Outfit', sans-serif;
+
+}
+h3{
+  text-align: center;
+  padding-top: 300px;
+  width: 80%;
+  color: hsl(218, 44%, 22%);
+  font-family: 'Outfit', sans-serif;
+
+}
+/* class selectors */
+.parent-container{
+  background-color: hsl(0, 0%, 100%);
+  width: 20%;
+  height: 450px;
+  border-radius: 5%;
+  position: relative;
+  margin: 150px auto 100px;
+
+}
+.Barcode-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+.heading {
+  margin: 130px auto 10px;
+}
