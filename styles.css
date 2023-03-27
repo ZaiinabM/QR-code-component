@@ -42,3 +42,14 @@ h3{
 .heading {
   margin: 130px auto 10px;
 }
+.attribution {
+    font-size: 1rem;
+    color: hsl(220, 15%, 55%);
+    padding-top: 25px;
+    text-align: center;
+    
+}
+
+.attribution a {
+    color: hsl(218, 44%, 22%);
+}
