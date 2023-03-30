@@ -1,7 +1,7 @@
-body{
-  background-color: #D6E2F0;
-  width: 1440px;
-  margin: auto;
+
+body{	min-height: 100vh;
+        display: grid;
+        place-items: center;
 }
 p{
   font-size: 15px;
