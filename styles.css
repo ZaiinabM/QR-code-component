@@ -1,53 +1,42 @@
 
-body{	min-height: 100vh;
+body{	
+	background-color: #D6E2F0;
+	min-height: 100vh;
         display: grid;
         place-items: center;
 }
 p{
   font-size: 15px;
   text-align: center;
-  margin: auto;
-  padding-top: 10px;
+  margin: 30px auto;
   width: 80%;
   color: hsl(220, 15%, 55%);
   font-family: 'Outfit', sans-serif;
-
 }
-h3{
-  text-align: center;
-  padding-top: 300px;
-  width: 80%;
-  color: hsl(218, 44%, 22%);
-  font-family: 'Outfit', sans-serif;
 
+h1{
+	text-align: center;
+	margin: 50px auto 10px;
+        width: 80%;
+        color: hsl(218, 44%, 22%);
+	font-size: 1.3rem;
+	font-family: 'Outfit', sans-serif;
 }
-/* class selectors */
 .parent-container{
-  background-color: hsl(0, 0%, 100%);
-  width: 20%;
-  height: 450px;
-  border-radius: 5%;
-  position: relative;
-  margin: 150px auto 100px;
-
+	background-color: hsl(0, 0%, 100%);
+	max-width: 320px;
+	border-radius: 5%;
+        padding: 1rem;
 }
 .Barcode-img{
-  width: 250px;
-  height: 250px;
-  border-radius: 5%;
-  position: absolute;
-  left: 20px;
-  top: 15px;
-}
-.heading {
-  margin: 130px auto 10px;
+	max-width: 100%;
+	border-radius: 5%;  
 }
 .attribution {
     font-size: 1rem;
     color: hsl(220, 15%, 55%);
     padding-top: 25px;
     text-align: center;
-    
 }
 
 .attribution a {
