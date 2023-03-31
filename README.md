@@ -22,8 +22,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - live URL: [Photo url](https://github.com/ZaiinabM/QR-code-component/blob/main/images/solution%20screenshot.png?raw=true)
 ### Built with
 
-- Non-semantic HTML5 markup
+- Semantic HTML5 markup
 - Css properties
+- Grid
 
 
 ### What I learned
@@ -36,15 +37,21 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   border-radius: 5%;
 }
 body{
-  width: 1440px;
+ display: grid;
+ place-items: center;
+ min-height: 100vh;
+}
+.parent-container{
+	max-width: 320px;
 }
 ```
 
 ### Continued development
-
-Positioning of images with CSS; I am still not very good at Positioning images with absolute and relative positions.
-Also adding margins to images or text.
-I usually use hex codes for the color property, I need to learn the hsl color property and how to add fall-back background color.
+- Semantic html; when to use the various landmarks
+- min-height and max width
+- Positioning of images with CSS; I am still not very good at Positioning images with absolute and relative positions.
+- Also adding margins to images or text.
+- I usually use hex codes for the color property, I need to learn the hsl color property and how to add fall-back background color.
 
 ### Useful resources
 
